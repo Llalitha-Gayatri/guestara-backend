@@ -13,15 +13,15 @@ The project follows a **layered architecture**, where each layer has a clear res
 This makes the code easier to understand, debug, extend, and explain.
 
 src/
-├── models/ # Database schemas (Category, Item, Booking, AddOn)
-├── controllers/ # Handles incoming HTTP requests and responses
-├── services/ # Core business logic (pricing, tax, booking)
-├── routes/ # API route definitions
-├── utils/ # Reusable helper functions (time, pagination)
-├── validations/ # Joi validation schemas
-├── middlewares/ # Request validation middleware
-├── config/ # Database connection setup
-└── app.js # Express app configuration
+    models/ # Database schemas (Category, Item, Booking, AddOn)
+    controllers/ # Handles incoming HTTP requests and responses
+    services/ # Core business logic (pricing, tax, booking)
+    routes/ # API route definitions
+    utils/ # Reusable helper functions (time, pagination)
+    validations/ # Joi validation schemas
+    middlewares/ # Request validation middleware
+    config/ # Database connection setup
+    app.js # Express app configuration
 
 server.js # Application entry point
 
