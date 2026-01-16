@@ -175,6 +175,3 @@ Advanced filters were partially implemented to keep the project focused and read
 ```bash
 git clone <your-repo-url>
 cd guestara-backend
-
-
-cd guestara-backend
